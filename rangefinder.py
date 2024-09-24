@@ -16,8 +16,8 @@ for i in userInput:
 
         n = int(stringStart)
         while n <= int(stringEnd):
-            print(str(n) +  " ")
+            print(str(n), end=" ")
             n += 1
     else:
-        print(i)
+        print(i, end=" ")
             
